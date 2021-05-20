@@ -1,0 +1,99 @@
+
+
+.bg {
+    /* The image used */
+    
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-size: 100% 100%;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(243, 219, 219);
+}
+.right {
+    float: right;
+    width: 970px;
+    padding-top: 31px;
+    font-size: 50px;
+    font-family: 'New Tegomin', serif;
+}
+.alert{
+    font-size: 11px;
+}
+
+.info{
+    padding-left: 130px;
+    padding-top: 55px;
+    font-size: 30px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+div.hidden { 
+    display:none;
+    font-size: 5px;
+    padding-left: 60px;
+ }
+
+/* Target the hidden div when the target div is being hovered over */
+.trigger:hover + div.hidden {
+    font-family: 'Indie Flower', cursive;
+    display:block;
+    font-size: 20px;
+}
+
+@media (max-width:1550px){
+    p.title{
+        margin-left: 30%;
+    }
+    .info{
+        padding-left: 30%;
+        padding-top: 55px;
+        font-size: 30px;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .trigger:hover + div.hidden {
+        font-family: 'Indie Flower', cursive;
+        display:block;
+        font-size: 17px;
+    }
+}
+@media (max-width:1024px){
+    p.title{
+        margin-left: 35%;
+    }
+    .info{
+        padding-left: 50%;
+        padding-top: 55px;
+        font-size: 30px;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .trigger:hover + div.hidden {
+        font-family: 'Indie Flower', cursive;
+        display:block;
+        font-size: 15px;
+    }
+}
+@media (max-width:700px){
+    p.title{
+        margin-left: 80%;
+        font-size: 25%
+    }
+    .info{
+        padding-left: 80%;
+        padding-top: 50px;
+        font-size: 12px;
+    }
+    div.hidden { 
+        padding-left: 20px;
+     }
+    .trigger:hover + div.hidden {
+        font-family: 'Indie Flower', cursive;
+        display:block;
+        font-size: 11px;
+    }
+}
