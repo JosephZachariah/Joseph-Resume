@@ -1,0 +1,124 @@
+
+
+.bg {
+    /* The image used */
+    
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-size: 100% 100%;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(243, 219, 219);
+}
+.back{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(243, 219, 219);
+    background-color: black;
+}
+.bodyBox {
+    width: 100%;
+    padding-top: 31px;
+    font-size: 50px;
+    font-family: 'New Tegomin', serif;
+}
+.title {
+    margin-left: 25%;
+    font-size: 36px;
+    margin-bottom: 80px;
+}
+.alert{
+    font-size: 11px;
+    text-align: center;
+    width:70%;
+    position: absolute;
+    right: 0px;
+}
+
+.info{
+    width: 70%;
+    float: right;
+    font-size: 30px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+}
+.infoBox{
+    margin: 0px 40px;
+}
+div.hidden { 
+    display: none;
+    font-size: 13px;
+    width: 165px;
+ }
+
+/* Target the hidden div when the target div is being hovered over */
+.trigger:hover + div.hidden {
+    display: block;
+}
+li {
+    margin-top: 12px;
+}
+.pic {
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top:0;
+
+}
+
+/* @media (max-width:1550px){
+    p.title{
+        margin-left: 30%;
+    }
+    .info{
+        padding-left: 30%;
+        padding-top: 55px;
+        font-size: 30px;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .trigger:hover + div.hidden {
+        font-family: 'Indie Flower', cursive;
+        display:block;
+        font-size: 17px;
+    }
+}
+@media (max-width:1024px){
+    p.title{
+        margin-left: 35%;
+    }
+    .info{
+        padding-left: 50%;
+        padding-top: 55px;
+        font-size: 30px;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .trigger:hover + div.hidden {
+        font-family: 'Indie Flower', cursive;
+        display:block;
+        font-size: 15px;
+    }
+}
+@media (max-width:700px){
+    p.title{
+        margin-left: 80%;
+        font-size: 25%
+    }
+    .info{
+        padding-left: 80%;
+        padding-top: 50px;
+        font-size: 12px;
+    }
+    div.hidden { 
+        padding-left: 20px;
+     }
+    .trigger:hover + div.hidden {
+        font-family: 'Indie Flower', cursive;
+        display:block;
+        font-size: 11px;
+    }
+} */
